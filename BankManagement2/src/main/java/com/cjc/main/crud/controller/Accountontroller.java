@@ -29,6 +29,7 @@ public class Accountontroller {
 
 	@RequestMapping("/")
 	public String logggg() {
+		System.out.println("Default mapping...");
 		return "login";
 	}
 
@@ -102,5 +103,6 @@ public class Accountontroller {
 
 		return "transaction";
 	}
+
 
 }
